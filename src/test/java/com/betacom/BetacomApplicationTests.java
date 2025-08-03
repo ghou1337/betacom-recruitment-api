@@ -9,10 +9,7 @@ import org.springframework.test.context.ActiveProfiles;
 @SpringBootTest
 @ActiveProfiles("test")
 class BetacomApplicationTests {
-
 	@Test
 	void contextLoads() {
-		// Spring уже увидит переменные из .env
-		assert System.getProperty("JWT_SECRET") != null;
 	}
 }

@@ -84,9 +84,15 @@ create table users
     password varchar(255) not null
 );
 ```
-### 4. Build and launch
+### 4. Build and launch 
 ``` 
 ./mvnw clean install
 ./mvnw spring-boot:run
 ```
 
+### 5. Build and launch tests
+
+``` 
+./mvnw clean install
+./mvnw test
+```
